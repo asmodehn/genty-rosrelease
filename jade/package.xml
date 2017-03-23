@@ -17,6 +17,7 @@
   <build_depend version_gte="0.2.0">catkin_pip</build_depend>
 
   <depend>python-six</depend>
+  <depend>python-mock</depend>
 
   <export>
     <rosdoc external_url="https://github.com/box/genty" />
