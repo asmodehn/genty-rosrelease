@@ -1,0 +1,13 @@
+Source: ros-jade-genty
+Section: misc
+Priority: extra
+Maintainer: AlexV <asmodehn@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python-mock, python-six, ros-jade-catkin (>= 0.6.18), ros-jade-catkin-pip (>= 0.2.0)
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jade-genty
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-mock, python-six
+Description: Genty, pronounced &quot;gen-tee&quot;, stands for &quot;generate tests&quot;.
+ It promotes generative testing, where a single test can execute over a variety of input.
