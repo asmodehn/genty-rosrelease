@@ -19,6 +19,3 @@ elif [ "$ROS_FLOW" == "install" ]; then
     make -j1 install
     source install/setup.bash
 fi
-
-# From tornado/runtests.sh
-python -m tornado.test.runtests
